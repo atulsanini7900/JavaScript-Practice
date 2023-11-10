@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>
+        Name:  <i id="name"></i>
+    </h2>
+   
+    <button onclick="clk()">Click</button>
+    <script>
+        function clk(){
+            let name=prompt("Please Enter Your Name :");
+            document.getElementById("name").innerHTML= name;
+        }
+       
+        // document.write(name);
+    </script>
+</body>
+</html>

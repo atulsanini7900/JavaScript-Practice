@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- //using id -->
+    <div id="main">
+    <h1>
+        welcome to javascript programming
+    </h1>
+    </div>
+    <script>
+    // //   var v=  document.getElementById("main");
+    // var v=document.getElementById("main").innerHTML="<h1>hi the text is changed</h1>";
+    //   alert(v);
+    //   prompt(v);
+    //   console.log(v);
+    </script>
+
+
+
+<!-- Using class -->
+<div class="main">
+    welcome to hindiset.com
+</div>
+<div class="main">
+    welcome to Atul
+</div>
+<script>
+    var v=document.getElementsByClassName("main")[0].innerHTML;
+    alert(v)
+    console.log(v);
+    document.getElementsByClassName("main")[0].innerHTML="hello world";
+    document.getElementsByClassName("main")[1].innerHTML=" world";
+
+</script>
+</body>
+</html>

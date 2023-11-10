@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <input type="text" name="name" id="name">
+    <button onclick="clickg()">Click Me</button>
+    <div class="hello">
+        <h1>
+            
+        </h1>
+    </div>
+    <script>
+        function clickg(){
+            let val=document.getElementById("name").value;
+            confirm("Are you sure your name is "+val+" ?");
+            let yourN="Couguralation "+val+" your name is Summited"
+            document.getElementsByClassName("hello")[0].innerHTML="<div><h1>"+yourN+"</h1></div>";
+        }
+    </script>
+</body>
+</html>

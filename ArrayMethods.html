@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const arr1=["apple", "banana","Mango","papaya"]
+        const arr2=["Cucumber", "banana","Mango","papaya"]
+
+
+        //isArray
+        let isarr=Array.isArray(arr1);
+        document.write("<h1>"+isarr+"</h1>")
+        //valueof
+        let val=arr1.valueOf();
+        document.write("<h1>"+val+"</h1>")
+        //join Method
+        let j=arr1.join(" ! " )
+        document.write("<h1>"+j+"</h1>")
+        //concat
+        let con=arr1.concat(arr2);
+        document.write("<h1>"+con+"</h1>")
+        //indexOf
+        let ind=con.indexOf("Cucumber")
+        document.write("<h1>"+ind+"</h1>")
+
+
+    </script>
+</body>
+</html>

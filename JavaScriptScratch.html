@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Hello World!</h1>
+    <script>
+        // window.alert("hello this is first javascript program");
+        // document.write("<h1>hi wow</h1>");
+        // prompt("please enter your age","18+");
+        // confirm("Do you want to cancle")
+
+
+
+        //factory function
+        // function createPerson(name,age){
+        //     return{
+        //         name:name,
+        //         age:age,
+        //     }
+        // }
+        // let john=createPerson("John",30);
+        // let mary=createPerson("Mary", 25);
+        // console.log(john.name);
+        // alert(john.age + john.name);
+
+//constructor
+        // function Rectangle(length, bredth){
+        //     this.length=length;
+        //     this.length=bredth;
+        //     this.fun=function(){
+        //         console.log("this is function")
+        //     }
+        // }
+
+        // let rectangleObject= new Rectangle(4,5);
+        // rectangleObject.color=45;
+        // console.log(rectangleObject)
+        // delete rectangleObject.color;
+        // console.log(rectangleObject)
+
+        
+        // alert((rectangleObject.fun()))
+
+        // alert()
+// for in loop and for of loop
+
+        // let person={
+        //     name:"raju",
+        //     age:30
+        // }
+        // for(let key in person){
+        //     console.log(person[key])
+        // }
+        // for(let key of Object.keys(person)){
+        //     console.log(person[key])
+        // }
+
+        // if("name" in person){
+        //     console.log("is Present");
+        // }else{
+        //     console.log("not present")
+        // }
+
+
+
+        //object clone
+
+        // let person={
+        //     a:10,
+        //     b:20,
+        //     c:40,
+        // }
+        // let myclone={};
+
+        // for(let key in person){
+        //     myclone[key]=person[key];
+        // }
+
+        // console.log(myclone)
+
+        // let person={
+        //     a:10,
+        //     b:20,
+        //     c:40,
+        // }
+
+        // let myclone=Object.assign({}, person)
+
+        // console.log(myclone)
+
+        // // third Wey
+
+        // let thirdClone={...person}
+        // console.log(thirdClone);
+
+
+
+
+        // Array 
+
+            // let arr=[1,2,3,4,6];
+
+            // arr.push(10);  //insert in last
+            // console.log(arr);
+
+            // arr.unshift(11); //insert in begining
+            // console.log(arr);
+
+            // arr.splice(3, 0, 101, 202); // inset anywhere
+            // console.log(arr);
+
+
+
+
+
+            // Removing element in array
+
+            //end
+
+            // arr.pop()
+            // console.log(arr);
+
+            // //begning
+            // arr.shift()
+            // console.log(arr);
+
+            // //middle or any
+            // arr.splice(3, 2)
+            // console.log(arr);
+
+
+            //Emptying erray
+                let myarray=[1,2,3,4,5,6,7]
+                let myarray2=myarray;
+            //1 some problem
+            // myarray=[]
+            // console.log(myarray);
+            // console.log(myarray2);
+            //2 best way
+            // myarray.length=0;
+            // console.log(myarray);
+            // console.log(myarray2);
+            //3
+            myarray.splice(0, myarray.length)
+            console.log(myarray);
+            console.log(myarray2);
+
+
+
+            // let ispresent=arr.includes(202); // check element is present or not
+            // console.log("Number is " + ispresent);
+
+
+            // let person=[
+
+            // {id:1, name:"Rama"},
+            // {id:2, name:"Krishna"},
+            // {id:3, name:"Hari"},
+            
+            // ]
+
+            // let findName=person.find((data)=>{
+            //     if(data.id>=2){
+            //         console.log(data.name)
+            //     };
+            // })
+
+            // console.log(findName)
+
+
+    </script>
+    <!-- <h1>hello</h1> -->
+</body>
+</html>
